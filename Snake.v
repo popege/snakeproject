@@ -1,6 +1,6 @@
 module Snake(start, master_clk, KB_clk, data, DAC_clk, VGA_R, VGA_G, VGA_B, VGA_hSync, VGA_vSync, blank_n);
 	
-	input master_clk, KB_clk, data; //50MHz
+	input master_clk, KB_clk, data; 
 	output reg [7:0]VGA_R, VGA_G, VGA_B;  //Red, Green, Blue VGA signals
 	output VGA_hSync, VGA_vSync, DAC_clk, blank_n; //Horizontal and Vertical sync signals
 	wire [9:0] xcounter; //x pixel
@@ -9,15 +9,15 @@ module Snake(start, master_clk, KB_clk, data, DAC_clk, VGA_R, VGA_G, VGA_B, VGA_
 	reg [8:0] appleY;
 	wire [9:0]Xrandom;
 	wire [8:0]Yrandom;
-	wire displayArea; //is it in the active display area?
-	wire clockVGA; //25 MHz
+	wire displayArea;
+	wire clockVGA; 
 	wire R;
 	wire G;
 	wire B;
 	wire [4:0] direction;
 	wire lethal, nonLethal;
 	reg bad_collision, good_collision, gameover;
-	reg appleinputX, appleinputY, apple, border, found; //---------------------------------------------------------------Added border
+	reg appleinputX, appleinputY, apple, border, found; 
 	integer appleCount, count1, count2, count3;
 	reg [6:0] size;
 	input start;
@@ -32,9 +32,10 @@ module Snake(start, master_clk, KB_clk, data, DAC_clk, VGA_R, VGA_G, VGA_B, VGA_
 	
 
 	clk_reduce reduce1(master_clk, clockVGA); 
-	//Reduces 50MHz clock to 25MHz
+	
 	VGA_gen gen1(clockVGA, xcounter, ycounter, displayArea, VGA_hSync, VGA_vSync, blank_n);
-	//Generates xcounter, ycounter and horizontal/vertical sync signals	
+	
+	
 	randomGrid rand1(clockVGA, Xrandom, Yrandom);
 	
 	kbInput kbIn(KB_clk, data, direction, reset);
