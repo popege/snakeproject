@@ -1,0 +1,9 @@
+Warning (10268): Verilog HDL information at Snake.v(46): always construct contains both blocking and non-blocking assignments File: M:/New_Project/Kristjan Snake/Snake/Snake.v Line: 46
+Warning (10268): Verilog HDL information at Snake.v(85): always construct contains both blocking and non-blocking assignments File: M:/New_Project/Kristjan Snake/Snake/Snake.v Line: 85
+Warning (10268): Verilog HDL information at Snake.v(93): always construct contains both blocking and non-blocking assignments File: M:/New_Project/Kristjan Snake/Snake/Snake.v Line: 93
+Warning (10268): Verilog HDL information at Snake.v(147): always construct contains both blocking and non-blocking assignments File: M:/New_Project/Kristjan Snake/Snake/Snake.v Line: 147
+Warning (10268): Verilog HDL information at Snake.v(152): always construct contains both blocking and non-blocking assignments File: M:/New_Project/Kristjan Snake/Snake/Snake.v Line: 152
+Warning (10268): Verilog HDL information at Snake.v(154): always construct contains both blocking and non-blocking assignments File: M:/New_Project/Kristjan Snake/Snake/Snake.v Line: 154
+Info (10281): Verilog HDL Declaration information at Snake.v(30): object "update" differs only in case from object "UPDATE" in the same scope File: M:/New_Project/Kristjan Snake/Snake/Snake.v Line: 30
+Warning (10268): Verilog HDL information at Snake.v(313): always construct contains both blocking and non-blocking assignments File: M:/New_Project/Kristjan Snake/Snake/Snake.v Line: 313
+Warning (10268): Verilog HDL information at Snake.v(328): always construct contains both blocking and non-blocking assignments File: M:/New_Project/Kristjan Snake/Snake/Snake.v Line: 328

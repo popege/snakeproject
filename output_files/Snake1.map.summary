@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Nov 15 18:04:53 2018
+Quartus Prime Version : 16.1.0 Build 196 10/24/2016 SJ Lite Edition
+Revision Name : Snake1
+Top-level Entity Name : Snake
+Family : Cyclone IV E
+Total logic elements : 10,316
+    Total combinational functions : 10,278
+    Dedicated logic registers : 2,372
+Total registers : 2372
+Total pins : 32
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
